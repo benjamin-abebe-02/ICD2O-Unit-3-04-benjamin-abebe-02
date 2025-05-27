@@ -7,7 +7,7 @@
 
 function myButtonClicked() {
  // input
- const TEMP_FAHRENHEIT = parseFloat(document.getElementById("fahrenheit-input").value)
+const TEMP_FAHRENHEIT = parseFloat(document.getElementById("fahrenheit-input").value)
 
 
  // process
@@ -15,5 +15,5 @@ function myButtonClicked() {
 
 
  // output
- document.getElementById('answer').innerHTML = "If the Temperature in Fahrenheit is " + TEMP_FAHRENHEIT + ", Then the temperature in calsius will be: " + TEMP_CELSIUS + "."
+document.getElementById('answer').innerHTML = "If the Temperature in Fahrenheit is " + TEMP_FAHRENHEIT + ", Then the temperature in calsius will be: " + TEMP_CELSIUS + "."
 }
